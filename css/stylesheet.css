@@ -73,7 +73,7 @@ header{
 	transition-duration: 1s;
 }
 .navname:hover{
-	-webkit-animation: pulsate 5s ease-in-out;
+	-webkit-animation: pulsate 2.5s ease-in-out;
     -webkit-animation-iteration-count: infinite; 
     opacity: 1;
     transition-duration: 1s;
