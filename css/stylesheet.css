@@ -1,0 +1,309 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	justify-content: space-around;
+	background-color: #052235;
+	font-family: montserrat, sans-serif;
+}
+
+
+/* scorll bars */
+body::-webkit-scrollbar{
+	width: 0.4rem;
+}
+body::-webkit-scrollbar-track{
+	background: #052235;
+	width: 100%;
+}
+body::-webkit-scrollbar-thumb{
+	background: #2196f3;
+	width: 60%;
+}
+body::-webkit-scrollbar-thumb:hover{
+	background: #2196f3;
+	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 50px #2196f3, 0 0 250px #2196f3;
+}
+body::-webkit-scrollbar:horizontal{
+	width: 0.4rem;
+	height: 0.4rem;
+}
+body::-webkit-scrollbar-track:horizontal{
+	background: #052235;
+}
+body::-webkit-scrollbar-thumb:horizontal{
+	background: #2196f3;
+}
+body::-webkit-scrollbar-thumb:horizontal:hover{
+	background: #2196f3;
+	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 50px #2196f3;
+}
+/* scorll bars end */
+
+
+header{
+	margin-top: 0;
+	padding-top: 0;
+	margin-left: 50px;
+	background: #052235;
+	color: #2196f3;
+	width: auto;
+}
+
+.navbar
+{
+	width: 100%;
+	height: auto;
+}
+
+.navname{
+	float: left;
+	letter-spacing: 3px;
+	padding-right: 20rem;
+	font-weight: bolder;
+	text-shadow: 0 0 5px #2196f3, 0 0 20px #2196f3, 0 0 50px #2196f3, 0 0 150px #2196f3;
+	transition-duration: 1s;
+}
+.navname:hover{
+	-webkit-animation: pulsate 10s ease-in-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+
+nav{
+	height: auto;
+	float: right;
+}
+
+nav ul {
+	height: auto;
+	list-style: none;
+}
+
+nav li {
+	height: auto;
+	display: inline-block;
+}
+
+.navlink{
+	position: relative;
+	display: block;
+	padding: 15px 30px;
+	color: #2196f3;
+	height: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 24px;
+	transition: 1s;
+	overflow: hidden;
+	letter-spacing: 2px;
+	
+}
+.navlink:hover{
+	color: #255784;
+	background-color: #2196f3;
+	transition-duration: 0.5s;
+	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
+	transition-timing-function: ease-in;
+}
+
+.text1{
+	animation: fade 1s ease-in-out forwards;
+	padding: 15px 30px;
+	color: #2196f3;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 24px;
+	width: 80%;
+	text-align: justify;
+	text-align:center;
+	letter-spacing: 2px;
+}
+
+strong{
+	font-weight: 2000;
+}
+
+.btn {
+	width: 50%;
+	justify-content: center;
+	align-items:center;
+}
+.content{
+	animation: fade 1s ease-in-out forwards;
+	width: 80%;
+	justify-content: space-around;
+	height: auto;
+	letter-spacing: 1px;
+	line-height: 1.5rem;
+	text-align: justify;
+	color: #2196f3;
+}
+
+.text5{
+	animation: fade 1s ease-in-out forwards;
+	padding: 15px 30px;
+	color: #2196f3;
+	background: linear-gradient(to left,#30E8BF, #FF8235);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 5000;
+	text-align:center;
+	letter-spacing: 3px;
+}
+
+.text6{
+	animation: fade 1s ease-in-out forwards;
+	padding: 15px 30px;
+	color: #2196f3;
+	background: linear-gradient(to left,#FC466B, #3F5EFB);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 24px;
+	margin-bottom: 100px;
+	font-weight: 5000;
+	text-align:center;
+	letter-spacing: 3px;
+}
+
+.text7
+{
+	animation: fade 1s ease-in-out forwards;
+	color: #2196f3;
+	margin-top: 300px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align:center;
+	letter-spacing: 1px;
+}
+
+.text8{
+	float: left;
+	display: inline;
+	animation: fade 1s ease-in-out forwards;
+	color: #2196f3;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align:center;
+	margin-left: 5px;
+	letter-spacing: 1px;
+}
+
+
+.button {
+	position: relative;
+	display: block;
+	padding: 15px 30px;
+	color: #2196f3;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 24px;
+	transition: 1s;
+	overflow: hidden;
+	letter-spacing: 2px;
+	
+}
+.button:hover{
+	color: #255784;
+	background-color: #2196f3;
+	transition-duration: 0.5s;
+	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
+	transition-timing-function: ease-in;
+}
+
+.maildiv{
+	width: 80%;
+}
+
+.mail{
+	float: right;
+	position: relative;
+	display: inline;
+	padding:2px 3px;
+	color: #2196f3;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 1s;
+	overflow: hidden;
+	letter-spacing: 2px;
+}
+.mail:hover{
+	color: #255784;
+	background-color: #2196f3;
+	transition-duration: 0.5s;
+	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
+	transition-timing-function: ease-in;
+}
+
+.link{
+	width: 100%;
+	height: 30px;
+	margin-top: 100px;
+}
+.gitlink
+{
+	float: right;
+	display: inline;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+	display: inline;
+	color: #2196f3;
+	font-size: 0.8rem;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 1s;
+	overflow: hidden;
+	letter-spacing: 2px;
+}
+.gitlink:hover{
+	transition-duration: 0.5s;
+	text-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
+	transition-timing-function: ease-in;
+}
+
+@keyframes fade{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes pulsate {
+    0% { 
+        color: #2196f3;
+        text-shadow: 0 0 5px #2196f3, 0 0 20px #2196f3, 0 0 50px #2196f3, 0 0 150px #2196f3;
+    }
+    50% { 
+        color: #26f287;
+        text-shadow: 0 0 5px #26f287, 0 0 20px #26f287, 0 0 50px #26f287, 0 0 150px #26f287;
+    }
+    100%{
+    	color: #2196f3;
+    	text-shadow: 0 0 5px #2196f3, 0 0 20px #2196f3, 0 0 50px #2196f3, 0 0 150px #2196f3;
+    }
+}
