@@ -1,0 +1,33 @@
+body{
+	margin:0;
+	padding:0;
+	height: 100vh;
+	background: #052235;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a{
+	position: relative;
+	display: block;
+	padding: 15px 30px;
+	color: #2196f3;
+	height: 100%;
+	font-family: montserrat, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 24px;
+	transition: 1s;
+	overflow: hidden;
+	letter-spacing: 2px;
+	
+}
+a:hover{
+	color: #052235;
+	background-color: #2196f3;
+	transition-duration: 0.5s;
+	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
+	transition-timing-function: ease-in;
+}
