@@ -69,6 +69,7 @@ header{
 	padding-right: 20rem;
 	font-weight: bolder;
 	pointer-events: none;
+	user-select: none;
 	text-shadow: 0 0 5px #2196f3, 0 0 20px #2196f3, 0 0 50px #2196f3, 0 0 150px #2196f3;
 	transition-duration: 1s;
 }
