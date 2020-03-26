@@ -111,7 +111,7 @@ nav li {
 	
 }
 .navlink:hover{
-	color: #255784;
+	color: #052235;
 	background-color: #2196f3;
 	transition-duration: 0.5s;
 	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
@@ -223,7 +223,7 @@ strong{
 	
 }
 .button:hover{
-	color: #255784;
+	color: #052235;
 	background-color: #2196f3;
 	transition-duration: 0.5s;
 	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
@@ -248,7 +248,7 @@ strong{
 	letter-spacing: 2px;
 }
 .mail:hover{
-	color: #255784;
+	color: #052235;
 	background-color: #2196f3;
 	transition-duration: 0.5s;
 	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
@@ -265,7 +265,7 @@ strong{
 	float: right;
 	display: inline;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 30px;s
 	padding-right: 10px;
 	padding-left: 10px;
 	position: relative;
