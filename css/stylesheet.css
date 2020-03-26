@@ -191,21 +191,24 @@ strong{
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align:center;
+	font-size: 0.9rem;
 	letter-spacing: 1px;
 }
-
-.text8{
+/* was used earlier. not used anymore. */ 
+/* .text8{
 	float: left;
-	display: inline;
+	display: flex;
 	animation: fade 1s ease-in-out forwards;
 	color: #2196f3;
 	font-size: 0.8rem;
+	width: auto;
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align:center;
 	margin-left: 5px;
+	text-align: center;
 	letter-spacing: 1px;
-}
+} */
 
 
 .button {
@@ -258,12 +261,14 @@ strong{
 .link{
 	width: 100%;
 	height: 30px;
+	display: flex;
+	flex-direction: column;
 	margin-top: 100px;
 }
 .gitlink
 {
-	float: right;
-	display: inline;
+	/*float: left;*/
+	display: flex;
 	padding-top: 30px;
 	padding-bottom: 30px;s
 	padding-right: 10px;
