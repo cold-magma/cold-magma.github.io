@@ -8,16 +8,12 @@ body::-webkit-scrollbar{
 	width: 0.4rem;
 }
 body::-webkit-scrollbar-track{
-	background: #052235;
+	background: black;
 	width: 100%;
 }
 body::-webkit-scrollbar-thumb{
-	background: #2196f3;
+	background: #292929;
 	width: 60%;
-}
-body::-webkit-scrollbar-thumb:hover{
-	background: #2196f3;
-	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 50px #2196f3, 0 0 250px #2196f3;
 }
 
 
@@ -74,7 +70,7 @@ body::-webkit-scrollbar-thumb:hover{
 	transition: all 5s ease;
 }
 .svgpilot:hover{
-	stroke-dasharray: 150px;
+	stroke-dasharray: 120px;
 	stroke-linecap: 40px;
 }
 
