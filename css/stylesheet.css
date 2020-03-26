@@ -212,6 +212,7 @@ strong{
 
 
 .button {
+	animation: fade 1s ease-in-out forwards;
 	position: relative;
 	display: block;
 	padding: 15px 30px;
@@ -238,6 +239,7 @@ strong{
 }
 
 .mail{
+	animation: fade 1s ease-in-out forwards;
 	float: right;
 	position: relative;
 	display: inline;
@@ -267,27 +269,26 @@ strong{
 }
 .gitlink
 {
-	/*float: left;*/
-	display: flex;
+	display: inline;
 	padding-top: 30px;
 	padding-bottom: 30px;s
 	padding-right: 10px;
 	padding-left: 10px;
 	position: relative;
-	display: inline;
 	color: #2196f3;
 	font-size: 0.8rem;
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
 	transition: 1s;
-	overflow: hidden;
+	font-weight: 2000;
 	letter-spacing: 2px;
 }
 .gitlink:hover{
-	transition-duration: 0.5s;
-	text-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
-	transition-timing-function: ease-in;
+	-webkit-animation: pulsate 3s ease-in-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 1;
+    transition-duration: 1s;
 }
 
 @keyframes fade{
