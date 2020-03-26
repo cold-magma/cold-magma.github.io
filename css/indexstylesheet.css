@@ -4,6 +4,22 @@ body{
 	background: #052235;
 	transition: all 1s ease;
 }
+body::-webkit-scrollbar{
+	width: 0.4rem;
+}
+body::-webkit-scrollbar-track{
+	background: #052235;
+	width: 100%;
+}
+body::-webkit-scrollbar-thumb{
+	background: #2196f3;
+	width: 60%;
+}
+body::-webkit-scrollbar-thumb:hover{
+	background: #2196f3;
+	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 50px #2196f3, 0 0 250px #2196f3;
+}
+
 
 .div1{
 	display: flex;
