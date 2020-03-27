@@ -33,61 +33,48 @@ span{
 #rect{
 	animation: fade 5s ease forwards;
 	width: 100%;
-	height: 10px;
+	height: auto;
 	top: 0;
 }
 #rect path{
 	stroke-linejoin: 50px;
-	animation: strokeanim 20s ease infinite;
+	animation: strokeanim 10s ease infinite;
 }
 
 @keyframes strokeanim{
 	0%{
-		stroke-dasharray: 80px;
-		stroke-linecap: 30px;
-	}
-	20%{
-		stroke-dasharray: 90px;
-		stroke-linecap: 30px;
-	}
-	40%{
-		stroke-dasharray: 75px;
-		stroke-linecap: 30px;
-	}
-	60%{
-		stroke-dasharray: 70px;
-		stroke-linecap: 30px;
-	}
-	80%{
 		stroke-dasharray: 85px;
 		stroke-linecap: 30px;
 	}
-	100%{
+	20%{
+		stroke-dasharray: 70px;
+		stroke-linecap: 30px;
+	}
+	40%{
+		stroke-dasharray: 65px;
+		stroke-linecap: 30px;
+	}
+	60%{
+		stroke-dasharray: 75px;
+		stroke-linecap: 30px;
+	}
+	80%{
 		stroke-dasharray: 80px;
+		stroke-linecap: 30px;
+	}
+	100%{
+		stroke-dasharray: 85px;
 		stroke-linecap: 30px;
 	}
 
 }
 @keyframes comein{
-	0%{
+	from{
 		letter-spacing: 200px;
 	}
-	20%{
-		letter-spacing: 150px;
-	}
-	40%{
-		letter-spacing: 100px;
-	}
-	60%{
-		letter-spacing: 50px;
-	}
-	80%{
+	to {
 		letter-spacing: 20px;
 	}
-	100%{
-		letter-spacing: 10px;
-	}
-
 }
 @keyframes fade{
 	from{
