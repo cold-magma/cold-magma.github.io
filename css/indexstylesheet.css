@@ -73,19 +73,12 @@ body::-webkit-scrollbar-thumb{
 	stroke-dasharray: 120px;
 	stroke-linecap: 40px;
 }
-.svgpilot:active{
-	animation: all 1s ease forwards;
-}
 
 .activebg{
 	background-color: #474747;
 }
 
 @keyframes onclick{
-	from{
-		stroke-dasharray: 120px;
-		stroke-linecap: 40px;
-	}
 	to{
 		stroke-dasharray: 0px;
 		stroke-linecap: 30px;
