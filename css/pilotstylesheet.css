@@ -28,7 +28,7 @@ p{
 }
 span{
 	font-weight: bolder;
-	animation: fade 1s infinite;
+	animation: fade .95s infinite;
 }
 #rect{
 	animation: fade 5s ease forwards;
@@ -47,15 +47,15 @@ span{
 		stroke-linecap: 30px;
 	}
 	20%{
-		stroke-dasharray: 70px;
+		stroke-dasharray: 80px;
 		stroke-linecap: 30px;
 	}
 	40%{
-		stroke-dasharray: 65px;
+		stroke-dasharray: 75px;
 		stroke-linecap: 30px;
 	}
 	60%{
-		stroke-dasharray: 75px;
+		stroke-dasharray: 70px;
 		stroke-linecap: 30px;
 	}
 	80%{
