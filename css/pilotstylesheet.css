@@ -146,6 +146,31 @@ h3{
 	letter-spacing: 1px;
 	text-align: center;
 }
+.link{
+	width: 100%;
+	margin:0;
+	height: 50px;
+	padding: 0;
+	text-align: left;
+	align-items: left;
+	justify-content: space-around;
+}
+.gitlink
+{
+	display: inline;
+	padding-top: 30px;
+	padding-left: 5px;
+	position: relative;
+	color: coral;
+	font-size: 0.8rem;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 1s;
+	font-weight: 2000;
+	letter-spacing: 2px;
+}
+
 @keyframes strok{
 	0%{
 		stroke-dasharray: 100px;
