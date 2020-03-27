@@ -142,13 +142,6 @@ h3{
 .arrow{
 	animation: strok 2s ease infinite;
 }
-.scrlt{
-	width: auto;
-	margin-right: 10px;
-	font-weight: bold;
-	letter-spacing: 1px;
-	text-align: center;
-}
 .link{
 	width: 100%;
 	margin:0;
