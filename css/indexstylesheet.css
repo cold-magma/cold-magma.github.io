@@ -77,11 +77,6 @@ p{
 .scroll{
 	animation: strok 2s ease infinite;
 }
-.scroll2{
-	color: coral;
-	animation: strok 2s ease infinite;
-}
-
 
 .pilot{
 	display: inline-block;
