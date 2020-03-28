@@ -28,7 +28,7 @@ p{
 .div1{
 	display: flex;
 	width: 100%;
-	height: 80vh;
+	height: 90vh;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -37,7 +37,7 @@ p{
 .div2{
 	display: flex;
 	width: 100%;
-	height: 100vh;
+	height: 90vh;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -45,7 +45,7 @@ p{
 .div3{
 	display: flex;
 	width: 100%;
-	height: 20vh;
+	height: 10vh;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -75,6 +75,10 @@ p{
 }
 
 .scroll{
+	animation: strok 2s ease infinite;
+}
+.scroll2{
+	color: coral;
 	animation: strok 2s ease infinite;
 }
 
