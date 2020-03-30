@@ -4,6 +4,7 @@ git: @cold-magma
 */
 
 body{
+	animation: fade 1s ease-in-out forwards;
 	margin:0;
 	padding:0;
 	background: #052235;
@@ -55,7 +56,17 @@ p{
 	align-items: center;
 	text-align: center;
 }
-
+.div4{
+	display: flex;
+	width: 100%;
+	height: 90vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: linear-gradient(to right, #38AEAD, #39db75);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
 .neon{
 	display: inline-block;
 	padding: 15px 30px;
@@ -98,9 +109,24 @@ p{
 	stroke-dasharray: 120px;
 	stroke-linecap: 40px;
 }
-
+.breathe{
+	display: inline-block;
+	padding: 15px 30px;
+	color: #2196f3;
+	height: auto;
+	font-family: montserrat, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	letter-spacing: 2px;
+}
 .activebg{
 	background-color: #474747;
+}
+.activebg2{
+	background-color: #193b75;
 }
 
 @keyframes onclick{
@@ -120,5 +146,13 @@ p{
 	}
 	100%{
 		stroke-dasharray: 100px;
+	}
+}
+@keyframes fade{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
 	}
 }
