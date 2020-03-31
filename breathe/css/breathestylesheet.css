@@ -45,6 +45,7 @@ body::-webkit-scrollbar{
 	text-align: center;
 	color: grey;
 	margin: 5px;
+	width: 80%;
 	background: linear-gradient(to right, #38AEAD, #39db75);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
@@ -97,7 +98,7 @@ body::-webkit-scrollbar{
 	background: linear-gradient(to right, #38AEAD, #39db75);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
-	width: 100%;
+	width: 80%;
 	overflow:hidden;
 }
 .parallax3 {  
