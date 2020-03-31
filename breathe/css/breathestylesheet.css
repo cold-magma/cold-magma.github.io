@@ -140,8 +140,8 @@ a{
 	text-decoration: none;
 	text-transform: none;
 	color: grey;
-	float: left;
-	margin-right: 70rem;
+	width: 100%;
+	text-align: left;
 }
 @keyframes fade{
 	from{
