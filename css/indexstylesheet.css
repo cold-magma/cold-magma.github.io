@@ -114,12 +114,16 @@ p{
 	padding: 15px 30px;
 	color: #2196f3;
 	height: auto;
-	font-family: montserrat, sans-serif;
+	font-family: 'Baloo Thambi 2', cursive;
+	font-size: 2.5rem;
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 30px;
 	overflow: hidden;
+	background: linear-gradient(to right, #38AEAD, #39db75);
+	/*animation: colorshift 10s infinite;*/
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
 	letter-spacing: 5px;
 }
 .activebg{
@@ -154,5 +158,37 @@ p{
 	}
 	to{
 		opacity: 1;
+	}
+}
+@keyframes colorshift{
+	0%{
+		background: #38AEAD;
+		-webkit-background-clip:text;
+		-webkit-text-fill-color:transparent;
+	}
+	20%{
+		background: #39db75;
+		-webkit-background-clip:text;
+		-webkit-text-fill-color:transparent;
+	}
+	40%{
+		background: #56eb31;
+		-webkit-background-clip:text;
+		-webkit-text-fill-color:transparent;
+	}
+	60%{
+		background: #f8ff36;
+		-webkit-background-clip:text;
+		-webkit-text-fill-color:transparent;
+	}
+	80%{
+		background: #ff6c36;
+		-webkit-background-clip:text;
+		-webkit-text-fill-color:transparent;
+	}
+	100%{
+		background: #175dff;
+		-webkit-background-clip:text;
+		-webkit-text-fill-color:transparent;
 	}
 }
