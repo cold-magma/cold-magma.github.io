@@ -118,9 +118,9 @@ p{
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 24px;
+	font-size: 30px;
 	overflow: hidden;
-	letter-spacing: 2px;
+	letter-spacing: 5px;
 }
 .activebg{
 	background-color: #474747;
