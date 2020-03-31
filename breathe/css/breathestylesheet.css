@@ -17,7 +17,7 @@ body::-webkit-scrollbar{
 	align-items: center;
 }
 .parallax1 {  
-    min-height: 85vh;  
+    min-height: 100vh;  
     width: 100%;
     display: flex;
     background-attachment: fixed; 
