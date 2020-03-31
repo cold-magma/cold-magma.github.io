@@ -3,7 +3,7 @@
 	padding: 0;
 }
 html{
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 body{
 	animation: fade 1s   ease;
@@ -12,8 +12,7 @@ body::-webkit-scrollbar{
 	width: 0;
 }
 .main{
-	min-width: 100vw;
-	min-height: 100vh;
+	min-width: 100%;
 	justify-content: space-around;
 	align-items: center;
 }
@@ -42,19 +41,19 @@ body::-webkit-scrollbar{
 }
 .layer2 h1{
 	font-family: montserrat, sans-serif;
-	font-size: 3rem;
+	font-size: 2rem;
 	text-align: center;
 	color: grey;
+	margin: 5px;
 	background: linear-gradient(to right, #38AEAD, #39db75);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
-	width: 80%;
 }
 .p1{
+	position: relative;
 	font-family: montserrat, sans-serif;
 	font-size: 5rem;
 	text-align: center;
-	margin-left: 80vh;
 	color: white;
 	text-shadow: -5px 5px 15px #000;
 }	
@@ -63,25 +62,7 @@ body::-webkit-scrollbar{
 	font-family: montserrat, sans-serif;
 	font-size: 5rem;
 	text-align: center;
-	margin-right: 20rem;
-	background: url("./content/pebble.jpg");
-	background-size: cover;
-	background-clip: text;
-	width: 50%;
-	color: white;
-	text-shadow: -5px 5px 15px #000;
-}
-.p21{
-	margin-left: 20;
-	font-family: montserrat, sans-serif;
-	font-size: 5rem;
-	text-align: center;
-	margin-left: 5rem;
-	margin-right: 5rem;
-	background: url("./content/pebble.jpg");
-	background-size: cover;
-	background-clip: text;
-	width: 50%;
+	width: 100%;
 	color: white;
 	text-shadow: -5px 5px 15px #000;
 }
@@ -110,13 +91,14 @@ body::-webkit-scrollbar{
 }
 .layer3 h1{
 	font-family: montserrat, sans-serif;
-	font-size: 3rem;
+	font-size: 2rem;
 	text-align: center;
 	color: grey;
 	background: linear-gradient(to right, #38AEAD, #39db75);
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
-	width: 80%;
+	width: 100%;
+	overflow:hidden;
 }
 .parallax3 {  
     min-height: 100vh;  
@@ -128,7 +110,7 @@ body::-webkit-scrollbar{
     background-size: cover; 
     align-items: center;
     justify-content: space-around;
-    
+    overflow: hidden;
 }
 footer{
 	min-height: 20vh;  
