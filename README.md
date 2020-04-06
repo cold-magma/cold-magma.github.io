@@ -24,7 +24,7 @@ Breathe is a simple and elegant landing page. Breathe employs a smooth parallax 
 
 EMPYREAN
 ========
-Empyrean is a showcase webpage and is very elegant. It uses multiple layers to create a beautiful parallax effect. Words are not enough to describe it. Just scroll and let your eyes feast.
+Empyrean is a showcase webpage and is very elegant. It uses multiple layers to create a beautiful parallax effect. Just scroll and let your eyes feast.
 The parallax was achieved using [lax.js](https://alexfox.dev/laxxx/ "LAX.js"). 
 
 
