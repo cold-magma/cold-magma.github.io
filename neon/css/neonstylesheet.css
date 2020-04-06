@@ -129,7 +129,7 @@ nav li {
 	color: #2196f3;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 24px;
+	font-size: 2rem;
 	width: 80%;
 	text-align: justify;
 	text-align:center;
@@ -165,7 +165,7 @@ strong{
 	-webkit-text-fill-color: transparent;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 1.5rem;
 	font-weight: 5000;
 	text-align:center;
 	letter-spacing: 3px;
@@ -180,7 +180,7 @@ strong{
 	-webkit-text-fill-color: transparent;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 24px;
+	font-size: 2rem;
 	margin-bottom: 100px;
 	font-weight: 5000;
 	text-align:center;
@@ -225,7 +225,7 @@ strong{
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 24px;
+	font-size: 2rem;
 	transition: 1s;
 	overflow: hidden;
 	letter-spacing: 2px;
@@ -249,6 +249,7 @@ strong{
 	position: relative;
 	display: inline;
 	padding:2px 3px;
+	font-size: 1rem;
 	color: #2196f3;
 	text-align: center;
 	text-transform: uppercase;
@@ -352,7 +353,13 @@ strong{
 	transition: 1s;
 	overflow: hidden;
 	letter-spacing: 2px;
-	
+}
+.navbar.activenav.navlink:hover{
+	color: #052235;
+	background-color: #2196f3;
+	transition-duration: 0.5s;
+	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
+	transition-timing-function: ease-in;
 }
 
 @keyframes fade{
