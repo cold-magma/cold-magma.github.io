@@ -109,7 +109,7 @@ nav li {
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	transition: 1s;
 	overflow: hidden;
 	letter-spacing: 2px;
@@ -349,7 +349,7 @@ strong{
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 0.5rem;
+	font-size: 1.5rem;
 	transition: 1s;
 	overflow: hidden;
 	letter-spacing: 2px;
