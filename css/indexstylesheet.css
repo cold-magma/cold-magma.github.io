@@ -67,6 +67,18 @@ p{
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
+.div5{
+	display: flex;
+	background-position: fixed;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: url("../embtnbg.jpg");
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
 .neon{
 	display: inline-block;
 	padding: 15px 30px;
@@ -120,11 +132,28 @@ p{
 	text-transform: uppercase;
 	text-decoration: none;
 	overflow: hidden;
+	font-weight: bolder;
 	background: linear-gradient(to right, #38AEAD, #39db75);
 	/*animation: colorshift 10s infinite;*/
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	letter-spacing: 5px;
+}
+.empyrean{
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	height: auto;
+	font-family: Bree Serif, serif;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 30px;
+	transition: 1s;
+	font-weight: bolder;
+	overflow: hidden;
+	letter-spacing: 2px;
+	
 }
 .activebg{
 	background-color: #474747;
