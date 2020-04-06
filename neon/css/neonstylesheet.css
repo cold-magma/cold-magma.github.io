@@ -199,22 +199,6 @@ strong{
 	font-size: 0.9rem;
 	letter-spacing: 0.1rem;
 }
-/* was used earlier. not used anymore. */ 
-/* .text8{
-	float: left;
-	display: flex;
-	animation: fade 1s ease-in-out forwards;
-	color: #2196f3;
-	font-size: 0.8rem;
-	width: auto;
-	text-transform: uppercase;
-	text-decoration: none;
-	text-align:center;
-	margin-left: 5px;
-	text-align: center;
-	letter-spacing: 1px;
-} */
-
 
 .button {
 	animation: fade 1s ease-in-out forwards;
@@ -228,8 +212,7 @@ strong{
 	font-size: 2rem;
 	transition: 1s;
 	overflow: hidden;
-	letter-spacing: 2px;
-	
+	letter-spacing: 2px;	
 }
 .button:hover{
 	color: #052235;
@@ -238,34 +221,6 @@ strong{
 	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
 	transition-timing-function: ease-in;
 }
-
-.maildiv{
-	width: 80%;
-}
-
-.mail{
-	animation: fade 1s ease-in-out forwards;
-	float: right;
-	position: relative;
-	display: inline;
-	padding:2px 3px;
-	font-size: 1rem;
-	color: #2196f3;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: none;
-	transition: 1s;
-	overflow: hidden;
-	letter-spacing: 0.5rem;
-}
-.mail:hover{
-	color: #052235;
-	background-color: #2196f3;
-	transition-duration: 0.5s;
-	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
-	transition-timing-function: ease-in;
-}
-
 .link{
 	width: 100%;
 	height: 30px;
