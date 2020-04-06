@@ -105,7 +105,7 @@ p{
 .scroll{
 	width: 20%;
 	height: 20%;
-	animation: strok 2s ease infinite;
+	animation: strok 5s ease infinite;
 }
 
 .pilot{
@@ -154,7 +154,7 @@ p{
 	transition: 1s;
 	font-weight: bolder;
 	overflow: hidden;
-	letter-spacing: 2px;
+	letter-spacing: 1rem;
 	
 }
 .activebg{
@@ -177,7 +177,7 @@ p{
 	}
 	50%
 	{
-		stroke-dasharray: 20px;
+		stroke-dasharray: 15px;
 	}
 	100%{
 		stroke-dasharray: 100px;
