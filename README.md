@@ -1,4 +1,4 @@
-# cold-magma.github.io
+# F L O W
 
 Hey everyone! This is a set of websites with different themes and different styles.
 Hope you like them all!
