@@ -6,6 +6,7 @@ html{
 	overflow-x: hidden;
 }
 body{
+	animation: fade 1s ease forwards;
 	display: flex;
 	flex-direction: column;
 	background:black;
@@ -128,4 +129,12 @@ a{
 	text-decoration:none;
 	font-family: Muli, sans-serif;
 	font-size:1rem;
+}
+@keyframes fade{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
 }
