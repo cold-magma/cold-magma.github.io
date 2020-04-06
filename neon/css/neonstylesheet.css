@@ -197,7 +197,7 @@ strong{
 	text-decoration: none;
 	text-align:center;
 	font-size: 0.9rem;
-	letter-spacing: 1px;
+	letter-spacing: 0.1rem;
 }
 /* was used earlier. not used anymore. */ 
 /* .text8{
@@ -256,7 +256,7 @@ strong{
 	text-decoration: none;
 	transition: 1s;
 	overflow: hidden;
-	letter-spacing: 2px;
+	letter-spacing: 0.5rem;
 }
 .mail:hover{
 	color: #052235;
