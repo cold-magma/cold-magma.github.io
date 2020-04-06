@@ -103,6 +103,8 @@ p{
 }
 
 .scroll{
+	width: 20%;
+	height: 20%;
 	animation: strok 2s ease infinite;
 }
 
@@ -175,7 +177,7 @@ p{
 	}
 	50%
 	{
-		stroke-dasharray: 65px;
+		stroke-dasharray: 20px;
 	}
 	100%{
 		stroke-dasharray: 100px;
