@@ -186,7 +186,7 @@ a{
 		width: 1rem;
 	}
 }
-@media (max-width: 1080px; max-height: 1920px;) {
+@media (max-width: 1080px; max-height: 2160px;) {
     #d1 {
         background: url("./images/l1small.png");
 		background-size: cover;
