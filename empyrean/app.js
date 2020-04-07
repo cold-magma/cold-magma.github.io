@@ -1,4 +1,6 @@
 window.onload = function() {
+	$(".loader-wrapper").fadeOut("slow");
+
 	lax.setup() // init
 
 	const updateLax = () => {
