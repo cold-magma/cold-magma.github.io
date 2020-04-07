@@ -142,7 +142,7 @@ a{
 	}
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1080px; max-height: 1920px;) {
     #d1 {
         background: url("./images/l1small.png");
 		background-size: cover;
