@@ -29,7 +29,6 @@ body{
 	background: url("./images/l6.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	transition: all 1s ease;
 }
 #d2{
 	position: absolute;
@@ -41,7 +40,6 @@ body{
 	background: url("./images/l2.png");
 	background-size: cover;	
 	background-repeat: no-repeat;
-	transition: all 1s ease;
 }
 .main_heading{
 	z-index: 0;
