@@ -6,7 +6,7 @@ html{
 	/*overflow-x: hidden;*/
 }
 body{
-	animation: fade 1s   ease;
+	animation: fade 1s ease;
 }
 body::-webkit-scrollbar{
 	width: 0;
@@ -26,7 +26,6 @@ body::-webkit-scrollbar{
     background-size: cover; 
     align-items: center;
     justify-content: space-around;
-    
 } 
 .layer2{
 	color: white;
@@ -77,7 +76,6 @@ body::-webkit-scrollbar{
     background-size: cover; 
     align-items: center;
     justify-content: space-around;
-    
 } 
 .layer3{
 	color: white;

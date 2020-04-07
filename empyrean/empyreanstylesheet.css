@@ -29,6 +29,7 @@ body{
 	background: url("./images/l6.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+	transition: all 1s ease;
 }
 #d2{
 	position: absolute;
@@ -40,6 +41,7 @@ body{
 	background: url("./images/l2.png");
 	background-size: cover;	
 	background-repeat: no-repeat;
+	transition: all 1s ease;
 }
 .main_heading{
 	z-index: 0;
@@ -69,13 +71,13 @@ body{
 	width: 100%;
 	height: 100vh;
 }
-.lax.lax1:nth-child(1){
+.lax.lax1 #d1{
 	z-index: -1;
 	background: url("./images/l1small.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.lax.lax1:nth-child(2){
+.lax.lax1 #d2{
 	z-index:1;
 	background: url("./images/l2small.png");
 	background-size: cover;	
@@ -125,10 +127,11 @@ body{
 a{
 	color: white;
 	margin: 0;
-	padding: 0;
+	padding-bottom: 5px;
 	text-decoration:none;
-	font-family: Muli, sans-serif;
-	font-size:1rem;
+	font-family: "Playfair Display", serif;
+	font-size:0.5rem;
+	letter-spacing: 0.2rem;
 }
 @keyframes fade{
 	from{
@@ -137,4 +140,17 @@ a{
 	to{
 		opacity: 1;
 	}
+}
+
+@media (max-width: 500px) {
+    #d1 {
+        background: url("./images/l1small.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+    }
+    #d2 {
+        background: url("./images/l2small.png");
+		background-size: cover;	
+		background-repeat: no-repeat;
+    }
 }

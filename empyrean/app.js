@@ -14,11 +14,11 @@ updatescreen();
 
 function updatescreen() {
 	if(window.innerWidth < 600){
-		document.getElementById("d1").classList.add("lax1");
-		document.getElementById("d2").classList.add("lax1");
+		document.getElementById("d1").classList.add("small");
+		document.getElementById("d2").classList.add("small");
 	}else{
 		
-		document.getElementById("d1").classList.remove("lax1");
-		document.getElementById("d2").classList.remove("lax1");
+		document.getElementById("d1").classList.remove("small");
+		document.getElementById("d2").classList.remove("small");
 	}
 }
