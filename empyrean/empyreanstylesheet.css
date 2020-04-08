@@ -33,6 +33,9 @@ body::-webkit-scrollbar-track:horizontal{
 body::-webkit-scrollbar-thumb:horizontal{
 	background: white;
 }
+.scroll{
+	overflow: hidden;
+}
 .loader-wrapper{
 	width: 100%;
 	height: 100%;

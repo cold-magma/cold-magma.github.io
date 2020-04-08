@@ -1,6 +1,4 @@
-const parallax = document.getElementById("bgdiv");
-
-window.addEventListener("scroll", function() {
-	let offset = window.pageYOffeset;
-	parallax.style.backgroundPositionY = offset *.75 + "px";
-});
+window.onload = function() {
+	$(".loader-wrapper").fadeOut("slow");
+	document.body.classList.remove("scroll");
+}
