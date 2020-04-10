@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	background: black;
+	overflow: hidden;
+}
+.scene{
+	position: absolute;
+	left: 50;
+	top: 50;
+	width: 100vw;
+	height: 100vh;
+}
+.layers{
+	position: absolute;
+	left: 60;
+	top: 60;
+	width: 120vw;
+	height: 120vh;
+}
+#layer1{
+	background: url(./layers/1.png);
+	background-size: cover;
+	z-index: 12;
+}
+#layer2{
+	background: url(./layers/2.png);
+	background-size: cover;
+	z-index: 11;
+}
+#layer3{
+	background: url(./layers/3.png);
+	background-size: cover;
+	z-index: 10;
+}
+#layer4{
+	background: url(./layers/4.png);
+	background-size: cover;
+	z-index: 9;
+}
+#layer5{
+	background: url(./layers/5.png);
+	background-size: cover;
+	z-index: 8;
+}
+#layer6{
+	background: url(./layers/6.png);
+	background-size: cover;
+	z-index: 7;
+}
+#layer7{
+	background: url(./layers/7.png);
+	background-size: cover;
+	z-index: 6;
+}
+#layer8{
+	background: url(./layers/8.png);
+	background-size: cover;
+	z-index: 5;
+}
+#layer9{
+	background: url(./layers/9.png);
+	background-size: cover;
+	z-index: 4;
+}
+#layer10{
+	background: url(./layers/10.png);
+	background-size: cover;
+	z-index: 3;
+}
+#layer11{
+	background: url(./layers/11.png);
+	background-size: cover;
+	z-index: 2;
+}
+#layer12{
+	background: url(./layers/12.png);
+	background-size: cover;
+	z-index: 1;
+}
+#layer13{
+	background: url(./layers/sun-lite.png);
+	background-size: cover;
+	z-index:0;
+}
+#layer14{
+	background: url(./layers/sky.png);
+	background-size: cover;
+	z-index: -1;
+}
