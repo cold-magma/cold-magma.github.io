@@ -9,18 +9,18 @@ body{
 	overflow: hidden;
 }
 .scene{
-	top: 50%;
-	left: 5%;
+	top: 5%;
+	left: 25%;
 	position: absolute;
-	width: 110%;
-	height: 110vh;
+	width: 120%;
+	height: 120vh;
 }
 .layers{
 	position: absolute;
-	top:5%; 
+	top:0; 
 	left:50%;
-	width: 110%;
-	height: 110vh;
+	width: 120%;
+	height: 120vh;
 }
 #layer1{
 	background: url(./layers/1.png) no-repeat;
