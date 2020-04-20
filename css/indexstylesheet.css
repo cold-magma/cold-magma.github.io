@@ -18,7 +18,7 @@ body::-webkit-scrollbar-track{
 	width: 100%;
 }
 body::-webkit-scrollbar-thumb{
-	background: #292929;
+	background: #505050;
 	width: 60%;
 }
 
@@ -126,7 +126,7 @@ p{
 .breathe{
 	display: inline-block;
 	padding: 15px 30px;
-	color: #2196f3;
+	color: #38AEAD;
 	height: auto;
 	font-family: 'Baloo Thambi 2', cursive;
 	font-size: 2.5rem;
@@ -135,10 +135,11 @@ p{
 	text-decoration: none;
 	overflow: hidden;
 	font-weight: bolder;
-	background: linear-gradient(to right, #38AEAD, #39db75);
-	/*animation: colorshift 10s infinite;*/
+	/*background: #38AEAD;
+	animation: colorshift 1s infinite;
+	transition: all ease;
 	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;
+	-webkit-text-fill-color:transparent;*/
 	letter-spacing: 5px;
 }
 .empyrean{
@@ -150,7 +151,7 @@ p{
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 2.5rem;
 	transition: 1s;
 	font-weight: bolder;
 	overflow: hidden;
@@ -195,33 +196,12 @@ p{
 }
 @keyframes colorshift{
 	0%{
-		background: #38AEAD;
-		-webkit-background-clip:text;
-		-webkit-text-fill-color:transparent;
+		color:#38AEAD;
 	}
-	20%{
-		background: #39db75;
-		-webkit-background-clip:text;
-		-webkit-text-fill-color:transparent;
-	}
-	40%{
-		background: #56eb31;
-		-webkit-background-clip:text;
-		-webkit-text-fill-color:transparent;
-	}
-	60%{
-		background: #f8ff36;
-		-webkit-background-clip:text;
-		-webkit-text-fill-color:transparent;
-	}
-	80%{
-		background: #ff6c36;
-		-webkit-background-clip:text;
-		-webkit-text-fill-color:transparent;
+	50%{
+		color: #39db75;
 	}
 	100%{
-		background: #175dff;
-		-webkit-background-clip:text;
-		-webkit-text-fill-color:transparent;
+		color:#38AEAD;
 	}
 }
