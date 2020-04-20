@@ -128,19 +128,19 @@ p{
 	padding: 15px 30px;
 	color: #38AEAD;
 	height: auto;
-	font-family: 'Baloo Thambi 2', cursive;
+	font-family: Montserrat, sans-serif;
 	font-size: 2.5rem;
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
 	overflow: hidden;
 	font-weight: bolder;
-	/*background: #38AEAD;
-	animation: colorshift 1s infinite;
-	transition: all ease;
+	background: linear-gradient(-45deg,#8E2DE2, #2adb71, #0575e6);
+	background-size: 400% 400%;
 	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;*/
+	-webkit-text-fill-color:transparent;
 	letter-spacing: 5px;
+	animation: colorshift 7s ease infinite;
 }
 .empyrean{
 	display: inline-block;
@@ -196,12 +196,12 @@ p{
 }
 @keyframes colorshift{
 	0%{
-		color:#38AEAD;
+		background-position: 0% 50%;
 	}
 	50%{
-		color: #39db75;
+		background-position: 100% 75%;
 	}
 	100%{
-		color:#38AEAD;
+		background-position: 0% 50%;
 	}
 }
