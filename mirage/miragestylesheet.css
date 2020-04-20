@@ -9,8 +9,6 @@ body{
 	overflow: hidden;
 }
 .scene{
-	top: 5%;
-	left: -25%;
 	position: absolute;
 	width: 120%;
 	height: 120vh;
