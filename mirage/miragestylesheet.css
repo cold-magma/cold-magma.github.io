@@ -5,7 +5,7 @@
 body{
 	width: 150vw;
 	height: 150vh;
-	transform: translateX(-35%);
+	transform: translate(-35%,-5%);
 	background: black;
 	overflow: hidden;
 }
