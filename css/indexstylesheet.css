@@ -21,7 +21,6 @@ body::-webkit-scrollbar-thumb{
 	background: #505050;
 	width: 60%;
 }
-
 p{
 	font-family: montserrat, sans-serif;
 	letter-spacing: 1px;
@@ -30,7 +29,6 @@ p{
 	text-align: center;
 	margin-right: 20px;
 }
-
 .div1{
 	display: flex;
 	width: 100%;
@@ -39,7 +37,6 @@ p{
 	align-items: center;
 	text-align: center;
 }
-
 .div2{
 	display: flex;
 	width: 100%;
@@ -101,13 +98,11 @@ p{
 	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
 	transition-timing-function: ease-in;
 }
-
 .scroll{
 	width: 20%;
 	height: 20%;
 	animation: strok 5s ease infinite;
 }
-
 .pilot{
 	display: inline-block;
 	padding: 15px 30px;
@@ -171,7 +166,6 @@ p{
 	to{
 		stroke-dasharray: 0px;
 		stroke-linecap: 30px;
-
 	}
 }
 @keyframes strok{
