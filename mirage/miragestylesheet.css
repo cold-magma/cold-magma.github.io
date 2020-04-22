@@ -105,3 +105,72 @@ h1{
 	letter-spacing: 1rem;
 	text-align: center;
 }
+#popupdiv{
+	z-index: 13;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background:transparent;
+}
+.pop{
+	visibility: hidden;
+	position: absolute;
+	top:0;
+	left: 0;
+	transform: translate(20%,-5%);
+	width: 150vw;
+	height: 150vh;
+}
+#popupdivbg{
+	background: #000;
+	opacity: 0.5;
+	z-index: 13;
+}
+.popup{
+	width: 20rem;
+	height: 20rem;
+	background: #f3b48b;
+	border-radius: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-transform: none;
+	color: white;
+	z-index: 14;
+	font-family: montserrat,sans-serif;
+	font-size: 0.81rem;
+	flex-direction: column;
+}
+p{
+	width: 80%;
+	height: auto;
+	text-align: center;
+	letter-spacing: 0.2rem;
+}
+span{
+	background: red;
+	color: white;
+	opacity: 1;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	font-size: 1rem;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	pointer-events: none;
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+.pop.show{
+	visibility: visible;
+	position: absolute;
+	top:0;
+	left: 0;
+	transform: translate(20%,-5%);
+	width: 150vw;
+	height: 150vh; 
+}
