@@ -76,6 +76,14 @@ p{
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
+.div6{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
 .neon{
 	display: inline-block;
 	padding: 15px 30px;
@@ -153,6 +161,22 @@ p{
 	letter-spacing: 1rem;
 	
 }
+.mirage{
+	display: inline-block;
+	padding: 15px 30px;
+	color: #f3b48b;
+	height: auto;
+	font-family: Montserrat, serif;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 2.5rem;
+	transition: 1s;
+	font-weight: bolder;
+	overflow: hidden;
+	letter-spacing: 1rem;
+	
+}
 .activebg{
 	background-color: #474747;
 }
@@ -161,6 +185,9 @@ p{
 }
 .activebg3{
 	background-color: #4c2a9c;
+}
+.activebg4{
+	background-color: #543c2c;
 }
 @keyframes onclick{
 	to{
