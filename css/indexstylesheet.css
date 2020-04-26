@@ -32,7 +32,7 @@ p{
 .div1{
 	display: flex;
 	width: 100%;
-	height: 90vh;
+	height: 80vh;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -52,6 +52,23 @@ p{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
+.div9{
+	display: flex;
+	width: 100%;
+	height: 10vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #2196f3;
+	height: auto;
+	font-family: montserrat, sans-serif;
+	text-align: center;
+	text-transform: none;
+	text-decoration: none;
+	font-size: 0.85rem;
+	letter-spacing: 2px;
+	animation: pulse 5s ease infinite;
 }
 .div4{
 	display: flex;
@@ -73,6 +90,7 @@ p{
 	align-items: center;
 	text-align: center;
 	background: url("../embtnbg.jpg");
+	background-attachment: fixed;
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
@@ -224,5 +242,31 @@ p{
 	}
 	100%{
 		background-position: 0% 50%;
+	}
+}
+@keyframes pulse{
+	0%{
+		color: #2196f3;
+		text-shadow: 0 0 5px #21f3bf, 0 0 20px #21f3bf, 0 0 50px #21f3bf, 0 0 150px #21f3bf;
+	}
+	20%{
+		color: #74ee15;
+		text-shadow: 0 0 5px #74ee15, 0 0 20px #74ee15, 0 0 50px #74ee15, 0 0 150px #74ee15;
+	}
+	40%{
+		color: #ff6ec7;
+		text-shadow: 0 0 5px #ffe700, 0 0 20px #ffe700, 0 0 50px #ffe700, 0 0 150px #ffe700;
+	}
+	60%{
+		color: #f000ff;
+		text-shadow: 0 0 5px #f000ff, 0 0 20px #f000ff, 0 0 50px #f000ff, 0 0 150px #f000ff;
+	}
+	80%{
+		color: #ff073a;
+		text-shadow: 0 0 5px #fe5970, 0 0 20px #fe5970, 0 0 50px #fe5970, 0 0 150px #fe5970;
+	}
+	100%{
+		color: #2196f3;
+		text-shadow: 0 0 5px #2196f3, 0 0 20px #2196f3, 0 0 50px #2196f3, 0 0 150px #2196f3;
 	}
 }
