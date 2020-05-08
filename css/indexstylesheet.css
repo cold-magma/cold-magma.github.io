@@ -195,6 +195,21 @@ p{
 	letter-spacing: 1rem;
 	
 }
+.git_link{
+	width: 100%;
+	height: 5vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.gitlink{
+	color: #f3b48b;
+	font-family: Montserrat, serif;
+	font-size: 0.5rem;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: 0.5rem;
+}
 .activebg{
 	background-color: #474747;
 }
