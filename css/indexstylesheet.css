@@ -61,14 +61,6 @@ p{
 	align-items: center;
 	text-align: center;
 	color: #2196f3;
-	height: auto;
-	font-family: montserrat, sans-serif;
-	text-align: center;
-	text-transform: none;
-	text-decoration: none;
-	font-size: 0.85rem;
-	letter-spacing: 2px;
-	animation: pulse 5s ease infinite;
 }
 .div4{
 	display: flex;
@@ -101,6 +93,17 @@ p{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
+.clicktext{
+	height: auto;
+	width: 50%;
+	font-family: montserrat, sans-serif;
+	text-align: center;
+	text-transform: none;
+	text-decoration: none;
+	font-size: 0.85rem;
+	letter-spacing: 2px;
+	animation: pulse 5s ease infinite;
 }
 .neon{
 	display: inline-block;
