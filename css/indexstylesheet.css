@@ -209,6 +209,7 @@ p{
 	text-decoration: none;
 	text-transform: none;
 	letter-spacing: 0.5rem;
+	text-align: center;
 }
 .activebg{
 	background-color: #474747;
