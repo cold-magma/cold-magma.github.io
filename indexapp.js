@@ -1,5 +1,5 @@
 function bgChange() {
-	if(this.scrollY > this.innerHeight / 5 && this.scrollY < this.innerHeight/ 5 + 500){
+	if(this.scrollY > this.innerHeight / 5 && this.scrollY < 2*this.innerHeight/ 5 + 500){
 		console.log(this.innerHeight + "1");
 		document.body.classList.add("activebg");
 		document.body.classList.remove("activebg2");
