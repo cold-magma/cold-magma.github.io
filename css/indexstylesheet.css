@@ -56,8 +56,9 @@ p{
 	text-transform: none;
 	text-decoration: none;
 	font-size: 0.85rem;
+	color: #2196f3;
+	font-weight: bold;
 	letter-spacing: 2px;
-	animation: pulse 5s ease infinite;
 }
 .div9{
 	display: flex;
@@ -109,7 +110,6 @@ p{
 	text-decoration: none;
 	font-size: 0.85rem;
 	letter-spacing: 2px;
-	animation: pulse 5s ease infinite;
 }
 .neon{
 	display: inline-block;
