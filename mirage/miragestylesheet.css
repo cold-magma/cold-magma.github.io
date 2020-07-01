@@ -175,10 +175,16 @@ a{
 	height: 150vh; 
 }
 @media screen and (max-aspect-ratio: 9/15){
+	body{
+		width: 150vw;
+		height: 150vh;
+		background: black;
+		overflow: hidden;
+	}
 	.layers{
 		position: absolute;
 		top:0; 
-		left:0;
+		left:25%;
 		width: 125vw;
 		height: 125vh;
 	}
