@@ -176,10 +176,11 @@ a{
 }
 @media screen and (max-aspect-ratio: 9/15){
 	body{
-		width: 100vw;
-		height: 100vh;
+		width: 125vw;
+		height: 125vh;
 		background: black;
 		overflow: hidden;
+		transform: translate(-35%,-5%);
 	}
 	.layers{
 		position: absolute;
@@ -187,7 +188,7 @@ a{
 		left:25%;
 		width: 125vw;
 		height: 125vh;
-		transform: translate(-20%,10%);
+		transform: translate(-30%,50%);
 	}
 	.pop.show{
 		visibility: visible;
