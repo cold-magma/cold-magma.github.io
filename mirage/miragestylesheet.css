@@ -175,27 +175,20 @@ a{
 	height: 150vh; 
 }
 @media screen and (max-aspect-ratio: 9/15){
-	body{
-		width: 125vw;
-		height: 125vh;
-		background: black;
-		overflow: hidden;
-		transform: translate(-35%,20%);
-	}
 	.layers{
 		position: absolute;
-		top:50; 
-		left:25;
-		width: 125vw;
-		height: 125vh;
-		
+		top:0; 
+		left:50%;
+		width: 150%;
+		height: 150vh;
 	}
 	.pop.show{
 		visibility: visible;
 		position: absolute;
 		top:0;
-		left:0;
-		width: 100vw;
-		height: 100vh; 
+		left: 0;
+		transform: translate(20%,-10%);
+		width: 150vw;
+		height: 150vh; 
 	}
 }
