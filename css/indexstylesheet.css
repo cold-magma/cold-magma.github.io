@@ -52,6 +52,12 @@ p{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	font-family: montserrat, sans-serif;
+	text-transform: none;
+	text-decoration: none;
+	font-size: 0.85rem;
+	letter-spacing: 2px;
+	animation: pulse 5s ease infinite;
 }
 .div9{
 	display: flex;
