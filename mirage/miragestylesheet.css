@@ -191,4 +191,60 @@ a{
 		width: 150vw;
 		height: 150vh; 
 	}
+	#layer1{
+		background: url(./layers/1.png) 100% 100% no-repeat;
+		z-index: 12;
+	}
+	#layer2{
+		background: url(./layers/2.png) 100% 100% no-repeat;
+		z-index: 11;
+	}
+	#layer3{
+		background: url(./layers/3.png) 100% 100% no-repeat;
+		z-index: 10;
+	}
+	#layer4{
+		background: url(./layers/4.png) 100% 100% no-repeat;
+		z-index: 9;
+	}
+	#layer5{
+		background: url(./layers/5.png) 100% 100% no-repeat;
+		z-index: 8;
+	}
+	#layer6{
+		background: url(./layers/6.png) 100% 100% no-repeat;
+		z-index: 7;
+	}
+	#layer7{
+		background: url(./layers/7.png) 150% 150% no-repeat;
+		z-index: 6;
+	}
+	#layer8{
+		background: url(./layers/8.png) 100% 100% no-repeat;
+		z-index: 5;
+	}
+	#layer9{
+		background: url(./layers/9.png) 100% 100% no-repeat;
+		z-index: 4;
+	}
+	#layer10{
+		background: url(./layers/10.png) 100% 100% no-repeat;
+		z-index: 3;
+	}
+	#layer11{
+		background: url(./layers/11.png) 100% 100% no-repeat;
+		z-index: 2;
+	}
+	#layer12{
+		background: url(./layers/12.png) 100% 100% no-repeat;
+		z-index: 1;
+	}
+	#layer13{
+		background: url(./layers/sun-lite.png) 100% 100% no-repeat;
+		z-index:0;
+	}
+	#layer14{
+		background: url(./layers/sky.png) 100% 100% no-repeat;
+		z-index: -1;
+	}
 }
