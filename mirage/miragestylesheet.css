@@ -178,7 +178,7 @@ a{
 	.layers{
 		position: absolute;
 		top:0; 
-		left:20%;
+		left:0;
 		width: 125vw;
 		height: 125vh;
 	}
@@ -186,9 +186,8 @@ a{
 		visibility: visible;
 		position: absolute;
 		top:0;
-		left: 5%;
+		left:0;
 		width: 100vw;
 		height: 100vh; 
-		transform: translate(20%,-10%);
 	}
 }
