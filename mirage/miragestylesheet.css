@@ -184,11 +184,11 @@ a{
 	}
 	.layers{
 		position: absolute;
-		top:0; 
-		left:25%;
+		top:50; 
+		left:25;
 		width: 125vw;
 		height: 125vh;
-		transform: translate(-30%,50%);
+		
 	}
 	.pop.show{
 		visibility: visible;
