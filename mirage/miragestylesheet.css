@@ -176,8 +176,8 @@ a{
 }
 @media screen and (max-aspect-ratio: 9/15){
 	body{
-		width: 150vw;
-		height: 150vh;
+		width: 100vw;
+		height: 100vh;
 		background: black;
 		overflow: hidden;
 	}
@@ -187,6 +187,7 @@ a{
 		left:25%;
 		width: 125vw;
 		height: 125vh;
+		transform: translate(20%,-10%);
 	}
 	.pop.show{
 		visibility: visible;
