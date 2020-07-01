@@ -178,6 +178,13 @@ a{
 	.layers{
 		position: absolute;
 		top:0; 
-		left:0%;
+		left:10%;
+	}
+	.pop.show{
+		visibility: visible;
+		position: absolute;
+		top:0;
+		left: 0;
+		transform: translate(0,-10%);
 	}
 }
