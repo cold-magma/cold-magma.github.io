@@ -180,7 +180,7 @@ a{
 		height: 125vh;
 		background: black;
 		overflow: hidden;
-		transform: translate(-35%,-5%);
+		transform: translate(-35%,20%);
 	}
 	.layers{
 		position: absolute;
