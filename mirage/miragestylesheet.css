@@ -174,3 +174,10 @@ a{
 	width: 150vw;
 	height: 150vh; 
 }
+@media screen and (max-aspect-ratio: 9/15){
+	.layers{
+		position: absolute;
+		top:0; 
+		left:0%;
+	}
+}
