@@ -187,7 +187,7 @@ a{
 		left:25%;
 		width: 125vw;
 		height: 125vh;
-		transform: translate(20%,-10%);
+		transform: translate(-20%,10%);
 	}
 	.pop.show{
 		visibility: visible;
