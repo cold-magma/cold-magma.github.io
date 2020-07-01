@@ -178,7 +178,7 @@ a{
 	.layers{
 		position: absolute;
 		top:0; 
-		left:25%;
+		left:20%;
 	}
 	.pop.show{
 		visibility: visible;
@@ -187,5 +187,6 @@ a{
 		left: 0;
 		width: 100vw;
 		height: 100vh; 
+		transform: translate(20%,-10%);
 	}
 }
