@@ -270,6 +270,8 @@ strong{
 	nav ul {
 		height: auto;
 		list-style: none;
+		display: flex;
+		flex-direction: row;
 	}
 
 	nav li {
