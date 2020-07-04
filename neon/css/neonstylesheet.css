@@ -254,7 +254,7 @@ strong{
 	.navbar
 	{
 		width: 100%;
-		height: auto;
+		height: 15vh;
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
@@ -283,7 +283,9 @@ strong{
 
 	nav li {
 		height: auto;
-		display: block;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
 		width: 100%;
 	}
 	.navlink{
