@@ -81,13 +81,13 @@ body::-webkit-scrollbar-thumb:horizontal:hover{
     opacity: 1;
     transition-duration: 1s;
 }
-
-
 nav{
 	height: auto;
 	float: right;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
 }
 
 nav ul {
