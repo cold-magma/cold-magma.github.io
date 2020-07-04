@@ -247,4 +247,10 @@ a{
 		background: url(./layers/sky.png) 100% 100% no-repeat;
 		z-index: -1;
 	}
+	#txtlayer{
+		z-index: 13;
+		font-family: montserrat,sans-serif;
+		transform: translate(-20%,0);
+		overflow:hidden;
+	}
 }
