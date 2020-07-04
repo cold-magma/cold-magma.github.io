@@ -7,6 +7,7 @@ body{
 	animation: fade 1s ease-in-out forwards;
 	margin:0;
 	padding:0;
+	overflow-x: hidden;
 	background: #052235;
 	transition: all 1s ease;
 }
@@ -21,7 +22,67 @@ body::-webkit-scrollbar-thumb{
 	background: #505050;
 	width: 60%;
 }
-p{
+.menubtn{
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 5%;
+	height: 100vh;
+	z-index: 1;
+	background: #2196f3;
+	transition: all 1s ease;
+}
+.menutxt{
+	color: #052235;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	cursor: default;
+	letter-spacing: 0.25rem;
+	transform: rotate(90deg);
+	transition: all 1s ease;
+}
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	transform: translate(-95vw,0);
+	width: 95%;
+	height: 100vh;
+	background: #07314d;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	transition:all 1.5s ease-in-out;
+}
+.options{
+	width: 100%;
+	height: 18vh;
+	margin-left: 10rem;
+	margin-bottom: none;
+	display: flex;
+	flex-direction: column;
+}
+.opttxt{
+	font-family: 'Anton', sans-serif;
+	font-size: 48px;
+	color: #2196f3;
+	transition: all 1s ease;
+	letter-spacing: 0.5rem;
+	cursor: default;
+}
+.opttxt:hover{
+	transform: translate(-6px,-6px);
+	text-shadow: 1px 1px 1px #175f99, 2px 2px 1px #175f99, 3px 3px 1px #175f99, 4px 4px 1px #175f99, 5px 5px 1px #175f99;
+} 
+.navactive{
+	transform: translate(5vw,0);
+}
+.clicktext{
 	font-family: montserrat, sans-serif;
 	letter-spacing: 1px;
 	color: #2196f3;
@@ -232,6 +293,94 @@ p{
 .activebg4{
 	background-color: #543c2c;
 }
+
+
+.navbg{
+	background-color: #383838;
+}
+.navbg2{
+	background-color: #1b4080;
+}
+.navbg3{
+	background-color: #231445;
+}
+.navbg4{
+	background-color: #2e2118;
+}
+
+
+.menubg{
+	background-color: coral;
+}
+.menubg2{
+	background: #0575e6;
+}
+.menubg3{
+	background-color: black;
+}
+.menubg4{
+	background-color: #f3b48b;
+}
+
+
+.menut{
+	color: coral;
+}
+.menut:hover{
+	transform: translate(-6px,-6px);
+	text-shadow: 1px 1px 1px #bf541b, 2px 2px 1px #bf541b, 3px 3px 1px #bf541b, 4px 4px 1px #bf541b, 5px 5px 1px #e86717;
+} 
+.menut2{
+	color: #0575e6;
+}
+.menut2:hover{
+	transform: translate(-6px,-6px);
+	text-shadow: 1px 1px 1px #012447, 2px 2px 1px #012447, 3px 3px 1px #012447, 4px 4px 1px #012447, 5px 5px 1px #012447;
+} 
+.menut3{
+	color: #723feb;
+}
+.menut3:hover{
+	transform: translate(-6px,-6px);
+	text-shadow: 1px 1px 1px #3d1e87, 2px 2px 1px #3d1e87, 3px 3px 1px #3d1e87, 4px 4px 1px #3d1e87, 5px 5px 1px #3d1e87;
+} 
+.menut4{
+	color: #f3b48b;
+}
+.menut4:hover{
+	transform: translate(-6px,-6px);
+	text-shadow: 1px 1px 1px #a66b44, 2px 2px 1px #a66b44, 3px 3px 1px #a66b44, 4px 4px 1px #a66b44, 5px 5px 1px #a66b44;
+} 
+
+
+.mtxt{
+	color: #383838;
+}
+.mtxt2{
+	color:#1b4080;
+}
+.mtxt3{
+	color: #231445;
+}
+.mtxt4{
+	color: #2e2118;
+}
+
+@media screen and (max-aspect-ratio: 9/15){
+	.menubtn{
+		width: 100%;
+		height: 5vh;
+	}
+	nav{
+		transform: translate(100vw,0);
+		width: 100%;
+		height: 95vh;
+	}
+	.navactive{
+		transform: translate(0,0);
+	}
+}
+
 @keyframes onclick{
 	to{
 		stroke-dasharray: 0px;
