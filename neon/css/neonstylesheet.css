@@ -302,6 +302,9 @@ strong{
 		width: 100%;
 		height: 20vh;
 	}
+	.button {
+		font-size: 1rem;
+	}
 }
 
 @keyframes fade{
