@@ -401,6 +401,9 @@ a{
 	.neon{
 		font-weight: bold;
 	}
+	.logo{
+		width:10%;
+	}
 }
 
 @keyframes onclick{
