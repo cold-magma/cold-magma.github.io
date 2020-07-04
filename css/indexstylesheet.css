@@ -188,6 +188,7 @@ a{
 	text-decoration: none;
 	font-size: 24px;
 	transition: 1s;
+	font-weight: bold;
 	overflow: hidden;
 	letter-spacing: 2px;
 	
@@ -372,6 +373,7 @@ a{
 		height: 5vh;
 	}
 	.menutxt{
+		font-size: 20px;
 		transform: rotate(0);
 	}
 	nav{
