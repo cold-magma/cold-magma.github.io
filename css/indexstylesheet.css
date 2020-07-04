@@ -24,6 +24,13 @@ body::-webkit-scrollbar-thumb{
 	background: #505050;
 	width: 60%;
 }
+.logo{
+	position: fixed;
+	top:5px;
+	left: 7px;
+	width: 4%;
+	z-index: 3;
+}
 .menubtn{
 	position: fixed;
 	top: 0;
