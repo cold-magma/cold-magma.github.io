@@ -286,6 +286,8 @@ strong{
 	}
 	.navlink{
 		font-size: 1rem;
+		padding: 0;
+		width: 100%;
 		letter-spacing: 2px;
 	}
 	#navheader{
