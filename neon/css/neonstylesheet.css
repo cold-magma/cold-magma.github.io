@@ -272,6 +272,7 @@ strong{
 	}
 
 	nav ul {
+		width: 100%;
 		height: auto;
 		list-style: none;
 		display: flex;
@@ -284,7 +285,6 @@ strong{
 		height: auto;
 		display: block;
 		width: 100%;
-		margin-right: 20px;
 	}
 	.navlink{
 		font-size: 1rem;
