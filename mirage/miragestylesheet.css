@@ -250,7 +250,7 @@ a{
 	#txtlayer{
 		z-index: 13;
 		font-family: montserrat,sans-serif;
-		transform: translate(-20%,0);
+		transform: translate(-50px,0);
 		overflow:hidden;
 	}
 }
