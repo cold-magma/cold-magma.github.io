@@ -280,6 +280,7 @@ strong{
 
 	nav li {
 		height: auto;
+		display: block;
 	}
 	.navlink{
 		font-size: 1rem;
