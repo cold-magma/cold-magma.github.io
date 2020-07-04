@@ -246,73 +246,6 @@ strong{
     opacity: 1;
     transition-duration: 1s;
 }
-.actnav{
-	margin: 0;
-	padding: 0;
-	width: 80%;
-}
-.navbar.activenav
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: auto;
-}
-.navbar.activenav.navname{
-	position: relative;
-	width: 100%;
-	letter-spacing: 3px;
-	font-weight: bolder;
-	cursor: default;
-	text-shadow: 0 0 5px #2196f3, 0 0 20px #2196f3, 0 0 50px #2196f3, 0 0 150px #2196f3;
-	transition-duration: 1s;
-}
-.navbar.activenav.navname:hover{
-	-webkit-animation: pulsate 2.5s ease-in-out;
-    -webkit-animation-iteration-count: infinite; 
-    opacity: 1;
-    transition-duration: 1s;
-}
-.navbar.activenav nav{
-	width: 90%;
-	height: auto;
-	position: relative;
-}
-.navbar.activenav nav ul {
-	display: flex;
-	justify-content: space-around;
-	height: auto;
-	list-style: none;
-}
-
-.navbar.activenav nav li {
-	height: auto;
-	display: inline-block;
-}
-
-.navbar.activenav.navlink{
-	position: relative;
-	display: block;
-	padding: 15px 30px;
-	color: #2196f3;
-	height: 100%;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 1rem;
-	transition: 1s;
-	overflow: hidden;
-	letter-spacing: 2px;
-}
-.navbar.activenav.navlink:hover{
-	color: #052235;
-	background-color: #2196f3;
-	transition-duration: 0.5s;
-	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
-	transition-timing-function: ease-in;
-}
 
 @media screen and (max-aspect-ratio: 9/15){
 	.navbar
@@ -342,6 +275,9 @@ strong{
 	.navlink{
 		font-size: 1rem;
 		letter-spacing: 2px;
+	}
+	#navheader{
+		width: 00%;
 	}
 }
 
