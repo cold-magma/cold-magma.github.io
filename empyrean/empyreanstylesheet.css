@@ -170,12 +170,8 @@ a{
 		width: 1rem;
 	}
 }
-@media (max-width: 500px) {
-    #d1 {
-        background: url("./images/l1small.png");
-		background-size: cover;
-		background-repeat: no-repeat;
-    }
+@media (max-aspect-ratio: 9/15) {
+    
     #d2 {
         background: url("./images/l2small.png");
 		background-size: cover;	
