@@ -376,6 +376,9 @@ a{
 		width: 100%;
 		height: 5vh;
 	}
+	.menutxt{
+		transform: rotate(0);
+	}
 	nav{
 		transform: translate(100vw,0);
 		width: 100%;
