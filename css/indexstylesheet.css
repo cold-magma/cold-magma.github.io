@@ -391,6 +391,9 @@ a{
 	.div1{
 		height: 75vh;
 	}
+	.neon{
+		font-weight: bold;
+	}
 }
 
 @keyframes onclick{

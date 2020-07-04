@@ -1,3 +1,8 @@
+/* 
+author: Amal Nair
+git: @cold-magma
+*/
+
 var menu = document.getElementById("menu");
 var nav = document.getElementById("nav");
 var navtext = document.getElementsByClassName("opttxt");
