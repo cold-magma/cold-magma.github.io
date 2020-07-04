@@ -263,6 +263,7 @@ strong{
 	.navname{
 		float: none;
 		width: 100%;
+		text-align: center;
 	}
 	nav{
 		height: auto;
