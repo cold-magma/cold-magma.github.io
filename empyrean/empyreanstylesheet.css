@@ -172,7 +172,7 @@ a{
 }
 @media (max-aspect-ratio: 9/15) {
     #d1{
-    	background-position: 50% 0;
+    	background-position: 50% 20%;
     }
     #d2 {
         background: url("./images/l2small.png");
