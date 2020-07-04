@@ -85,6 +85,8 @@ body::-webkit-scrollbar-thumb:horizontal:hover{
 nav{
 	height: auto;
 	float: right;
+	display: flex;
+	flex-direction: row;
 }
 
 nav ul {
