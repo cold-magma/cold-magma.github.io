@@ -305,6 +305,9 @@ strong{
 	.button {
 		font-size: 1rem;
 	}
+	.text6{
+		font-size: 1rem;
+	}
 }
 
 @keyframes fade{
