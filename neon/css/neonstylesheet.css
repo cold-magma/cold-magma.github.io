@@ -56,7 +56,6 @@ body::-webkit-scrollbar-thumb:horizontal:hover{
 #navheader{
 	margin-top: 0;
 	padding-top: 0;
-	
 	background: #052235;
 	color: #2196f3;
 	width: 80%;
@@ -67,11 +66,9 @@ body::-webkit-scrollbar-thumb:horizontal:hover{
 	width: 100%;
 	height: auto;
 }
-
 .navname{
 	float: left;
 	letter-spacing: 3px;
-	
 	font-weight: bolder;
 	cursor: default;
 	text-shadow: 0 0 5px #2196f3, 0 0 20px #2196f3, 0 0 50px #2196f3, 0 0 150px #2196f3;
@@ -315,6 +312,37 @@ strong{
 	transition-duration: 0.5s;
 	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
 	transition-timing-function: ease-in;
+}
+
+@media screen and (max-aspect-ratio: 9/15){
+	.navbar
+	{
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+	.navname{
+		width: 100%;
+	}
+	nav{
+		height: auto;
+		width: 100%;
+	}
+
+	nav ul {
+		height: auto;
+		list-style: none;
+	}
+
+	nav li {
+		height: auto;
+		display: inline-block;
+	}
+	.navlink{
+		font-size: 1rem;
+		letter-spacing: 2px;
+	}
 }
 
 @keyframes fade{
