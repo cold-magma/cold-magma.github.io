@@ -304,8 +304,17 @@ strong{
 	}
 	.button {
 		font-size: 1rem;
+		width: 80%;
+	}
+	.text5{
+		font-size: 0.85rem;
+		width: 90%;
 	}
 	.text6{
+		font-size: 1rem;
+		width: 90%;
+	}
+	.text1{
 		font-size: 1rem;
 	}
 }
