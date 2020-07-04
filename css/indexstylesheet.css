@@ -199,11 +199,6 @@ a{
 	box-shadow: 0 0 2px #2196f3, 0 0 5px #2196f3, 0 0 7px #2196f3, 0 0 20px #2196f3, 0 0 150px #2196f3;
 	transition-timing-function: ease-in;
 }
-.scroll{
-	width: 20%;
-	height: 20%;
-	animation: strok 5s ease infinite;
-}
 .pilot{
 	display: inline-block;
 	padding: 15px 30px;
@@ -395,18 +390,6 @@ a{
 		stroke-linecap: 30px;
 	}
 }
-@keyframes strok{
-	0%{
-		stroke-dasharray: 100px;
-	}
-	50%
-	{
-		stroke-dasharray: 15px;
-	}
-	100%{
-		stroke-dasharray: 100px;
-	}
-}
 @keyframes fade{
 	from{
 		opacity: 0;
@@ -424,31 +407,5 @@ a{
 	}
 	100%{
 		background-position: 0% 50%;
-	}
-}
-@keyframes pulse{
-	0%{
-		color: #2196f3;
-		text-shadow: 0 0 5px #21f3bf, 0 0 20px #21f3bf, 0 0 50px #21f3bf, 0 0 150px #21f3bf;
-	}
-	20%{
-		color: #74ee15;
-		text-shadow: 0 0 5px #74ee15, 0 0 20px #74ee15, 0 0 50px #74ee15, 0 0 150px #74ee15;
-	}
-	40%{
-		color: #ff6ec7;
-		text-shadow: 0 0 5px #ffe700, 0 0 20px #ffe700, 0 0 50px #ffe700, 0 0 150px #ffe700;
-	}
-	60%{
-		color: #f000ff;
-		text-shadow: 0 0 5px #f000ff, 0 0 20px #f000ff, 0 0 50px #f000ff, 0 0 150px #f000ff;
-	}
-	80%{
-		color: #ff073a;
-		text-shadow: 0 0 5px #fe5970, 0 0 20px #fe5970, 0 0 50px #fe5970, 0 0 150px #fe5970;
-	}
-	100%{
-		color: #2196f3;
-		text-shadow: 0 0 5px #2196f3, 0 0 20px #2196f3, 0 0 50px #2196f3, 0 0 150px #2196f3;
 	}
 }
