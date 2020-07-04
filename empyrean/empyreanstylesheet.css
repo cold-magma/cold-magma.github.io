@@ -178,6 +178,6 @@ a{
         background: url("./images/l2small.png");
 		background-size: cover;	
 		background-repeat: no-repeat;
-		transform: translateY(50px);
+		transform: translateY(-50px);
     }
 }
