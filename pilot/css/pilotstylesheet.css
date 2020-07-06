@@ -37,7 +37,7 @@ header{
 	align-items: center;
 }
 .mainlogo{
-	animation: comein 4s ease forwards;
+	animation: comein 3s ease forwards;
 	font-weight: bolder;
 	text-align: center;
 	width: 100%;
