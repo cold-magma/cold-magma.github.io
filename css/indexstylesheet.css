@@ -89,7 +89,7 @@ a{
 }
 .opttxt:hover{
 	transform: translate(-6px,-6px);
-	text-shadow: 1px 1px 1px #175f99, 2px 2px 1px #175f99, 3px 3px 1px #175f99, 4px 4px 1px #175f99, 5px 5px 1px #175f99;
+	text-shadow: 1px 1px 1px #145487, 2px 2px 1px #145487, 3px 3px 1px #145487, 4px 4px 1px #145487, 5px 5px 1px #145487;
 } 
 .navactive{
 	transform: translate(5vw,0);
