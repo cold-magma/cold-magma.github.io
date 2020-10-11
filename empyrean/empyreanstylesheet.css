@@ -34,7 +34,7 @@ body::-webkit-scrollbar-thumb:horizontal{
 	background: white;
 }
 .scroll{
-	overflow-y: hidden;
+	overflow: hidden;
 }
 .loader-wrapper{
 	width: 100%;
