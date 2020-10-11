@@ -1,0 +1,179 @@
+*{
+	padding: 0;
+	margin:0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	display: flex;
+	background:#214a3c;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	overflow-x: hidden;
+}
+.mainhead{
+	font-family: Montserrat, sans-serif;
+	font-size: 32px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: bold;
+	padding-top:40px;
+	padding-bottom: 40px;
+	color: #66ff91;
+	text-shadow: 1px 1px 1px #40a15c, 2px 2px 1px #40a15c, 3px 3px 1px #40a15c, 4px 4px 1px #40a15c, 5px 5px 1px #40a15c;
+	transition: all 0.5s ease;
+}
+.mainhead:hover{
+	transform: translate(6px,6px);
+	text-shadow:none;
+}
+nav{
+	width: 80vw;
+	display: flex;
+}
+.navlinks{
+	width: 20vw;
+	font-family: Montserrat, sans-serif;
+	font-size: 22px;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: #66ff91;
+	transition: all 0.5s ease;
+}
+.navlinks:hover{
+	transform: translate(-6px,-6px);
+	text-shadow: 1px 1px 1px #40a15c, 2px 2px 1px #40a15c, 3px 3px 1px #40a15c, 4px 4px 1px #40a15c, 5px 5px 1px #40a15c;
+}
+.content1{
+	width: 80%;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 5px;
+	padding-top:40px;
+	padding-bottom: 40px;
+	color: #66ff91;
+}
+.imgdiv{
+	width: 60%;
+	height: 95vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.slider{
+	width: 500%;
+	height: 100vh;
+	display: flex;
+	animation: slide 30s ease infinite;
+}
+.img{
+	width: 50vw;
+	height: 90vh;
+}
+#img1{
+	background: url("uniface.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#img2{
+	background: url("boatonriver.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#img3{
+	background: url("lonelygirl.png");
+	background-size: 100%; 
+	background-repeat: no-repeat;
+}
+#img4{
+	background: url("mooncat.png");
+	background-size: 100%; 
+	background-repeat: no-repeat;
+}
+#img5{
+	background: url("ladakh.png");
+	background-size: 100%; 
+	background-repeat: no-repeat;
+}
+.insta{
+	width: 10%;
+	border-radius: 50px;
+	transition: all 1.25s ease;
+}
+.insta:hover{
+	background:#40a15c;
+}
+.popup{
+	visibility: hidden;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	top :0;  
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+.comingsoon{
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: black;
+	opacity: 0.4;
+	font-family: Montserrat, sans-serif;
+	font-size: 18px;
+	text-align: justify;
+	letter-spacing: 5px;
+	color: white;
+	text-transform: rotate(90deg);
+	font-style: italic;
+	font-weight: bold;
+}
+.comingsoonpopup{
+	background: #214a3c;
+	width: 40%;
+	position: absolute;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 5px;
+	padding-top:40px;
+	padding-bottom: 40px;
+	color: #66ff91;
+	border-radius: 50px;
+}
+@keyframes slide{
+	0%{
+		transform: translate(-30%,0);
+	}
+	50%{
+		transform: translate(30%,0);
+	}
+	100%{
+		transform:translate(-30%,0);
+	}
+}
+.popactive{
+	visibility: visible;
+	opacity: 1;
+}
